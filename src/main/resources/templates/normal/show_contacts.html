@@ -6,7 +6,6 @@
 </head>
 <body>
 	<section>
-	   <h1>this is Show Contact  page</h1>	   
       <div class="card">
         
         <div class="card-body">
@@ -52,8 +51,8 @@
 		      <td th:text=${c.phone}></td>
 		      <td>
 		      
-		      <a th:onclick="|deleteContact(${c.cid})|" class="btn btn-danger mr-1 ">Delete</a>
-              <form th:action="@{'/user/update-contact/'+${c.cid}}" method="post" class="mt-1">
+		      <a th:onclick="|deleteContact(${c.cid})|" class="btn btn-danger m-1 text-white ">Delete</a>
+              <form th:action="@{'/user/update-contact/'+${c.cid}}" method="post" class="m-1">
               <button type="submit"  class="btn btn-primary ">Update</button>
 		      </form>
 		      </td>

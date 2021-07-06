@@ -67,6 +67,7 @@ public class UserController {
 		System.out.println(userName);
 		System.out.println("hello this is running");
 		User user=userRepository.getUserByUserName(userName);
+		
 		model.addAttribute("user", user);		
 	}
 	//dashBoard Home

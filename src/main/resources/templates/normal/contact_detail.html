@@ -54,7 +54,7 @@
 				 </div>
 				<div class="container mt-3">
 				
-				<a  th:onclick="|deleteContact(${contact.cid})|" class="btn btn-danger ">Delete</a>
+				<a  th:onclick="|deleteContact(${contact.cid})|" class="btn btn-danger text-white ">Delete</a>
 			<form th:action="@{'/user/update-contact/'+${contact.cid}}" method="post" class="mt-1">
               <button type="submit"  class="btn btn-primary ">Update</button>
 		      </form>
