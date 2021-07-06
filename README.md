@@ -1,1 +1,1 @@
-# newSmart
+# Smart-Contact-Manager
